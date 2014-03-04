@@ -1,0 +1,164 @@
+body{
+   font-size: 13px;
+   line-height: 20px;
+   font-family: helvetica neue, helvetica, arial, sans-serif;
+
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+h3 {
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+.wrap {
+	margin: 0 auto;
+	max-width: 880px;
+}
+
+.bg{
+   width: 80%;
+   height: 80%;
+   position: absolute;
+   z-index: -1;
+   top: 100px;
+   opacity: .18;
+}
+
+
+.text-navbar {
+	width: 880px;
+	margin: 0 auto;
+	float: none;
+	z-index: 999;
+}
+
+.text-navbar i.dots {
+	display: block;
+	width: 20px;
+	height: 84px;
+	background: url(../img/m_st.png) repeat-y center 0;
+	background-size: 12px 12px;
+}
+
+.text-navbar a {
+	padding: 14px 0;
+	margin: 0;
+	border-bottom: 0;
+	color: #000;
+	font-weight: 400;
+	text-shadow: 0 1px 0 #fff;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 25px;
+	border-bottom: 1px solid transparent;
+	text-decoration: none;
+	text-align: center;
+	width: 105px;
+}
+
+.text-navbar a img {
+	width: 40px;
+	z-index: 999;
+}
+
+.text-navbar a.logo {
+	width: 130px;
+}
+
+.text-navbar a.logo img {
+	margin-top: 40px;
+	width: 85%;
+}
+
+.text-navbar a:hover {
+	color: #aca81c;
+}
+
+.text-navbar a.active {
+	color: #c97600;
+	text-shadow: 0 1px 0 #fff;
+	border-color: #c97600;
+}
+
+.block-group .slider {
+	margin-top: -68px;
+	width: 100%;
+	height: 300px;
+	background: rgba(0,0,0,.2);
+	z-index: 1;
+}
+
+.left-arr,
+.right-arr {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 130px 0 0 -20px;
+	background: url(../img/left-arr.png) no-repeat 0 0;
+	background-size: 40px 40px;
+}
+
+	.mini-slider .left-arr,
+	.mini-slider .right-arr {
+		width: 30px;
+		height: 30px;
+		margin: 85px 0 0 -15px;
+		background: url(../img/left-arr.png) no-repeat 0 0;
+		background-size: 30px 30px;
+	}
+
+.right-arr {
+	margin: 130px -20px 0 0;
+	background: url(../img/right-arr.png) no-repeat 0 0;
+	background-size: 40px 40px;
+	float: right;
+}
+
+	.mini-slider .right-arr {
+		margin: 85px -15px 0 0;
+		background: url(../img/right-arr.png) no-repeat 0 0;
+		background-size: 30px 30px;
+	}
+
+
+.block-group .mini-slider {
+	width: 100%;
+	height: 200px;
+	background: rgba(0,0,0,.2);
+}
+
+
+.footer {
+	padding-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
