@@ -4,6 +4,9 @@
   <title>SK prod</title>
   <link rel="stylesheet" href="css/ghost.css">
   <link rel="stylesheet" href="css/css.css">
+  
+ 
+
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 </head>
@@ -49,14 +52,46 @@
 		</div>
 	</div>
 
-	<div class="block-group">
-		<div class="wrap">
-			<div class="block slider">
-				<div class="left-arr"></div>
-				<div class="right-arr"></div>
-			</div>
+		<div class="block-group">
+
+    <div id="slides" class="slider">
+	      <img src="img_page/1.jpg">
+	      <img src="img_page/2.jpg">
+	      <img src="img_page/14y.jpg">
+
+    </div>
+  </div>
+
+
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+ <script src="js/jquery.slides.min.js"></script>
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 700,
+        height: 228,
+        navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 200
+          }
+        }
+      });
+    });
+  </script>
+
+		
+
+
 		</div>
 	</div>
+
+
 
 	<div class="block-group">
 		<div class="wrap">
@@ -138,6 +173,8 @@
 		</div>
 		<br class="clear">
 	</div>
+
+
 
 </body>
 </html>
