@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SK prod</title>
-  <link rel="stylesheet" href="css/ghost.css">
-  <link rel="stylesheet" href="css/css.css">
-  
- 
-
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
+	<title>SK prod</title>
+	<link rel="stylesheet" href="css/ghost.css">
+	<link rel="stylesheet" href="css/css.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.slides.min.js"></script>
 </head>
 
 <body>
@@ -36,7 +34,7 @@
 
 			<a href="media.html">
 				<img src="img/media.png"><br>
-				МЕДИЯ
+				МЕДИА
 			</a>
 			<i class="dots"></i>
 			<a href="#start">
@@ -49,9 +47,11 @@
 				SK STORE
 			</a>
 			<i class="dots"></i>
+			<br class="clear">
 		</div>
 	</div>
 
+<<<<<<< HEAD
 		<div class="block-group">
 
     <div id="slides" class="slider">
@@ -89,9 +89,37 @@
 
 
 		</div>
+=======
+	<div class="block-group">
+		<div class="wrap">
+			<div class="block w100">
+				<div class="inblock">
+					<div class="container">
+						<div id="slides">
+						<img src="img_page/1.jpg">
+						<img src="img_page/2.jpg">
+						<img src="img_page/14y.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+	    </div>
+>>>>>>> 3dd7aa8c3751eb458de1aa82e9138e1eec599880
 	</div>
-
-
+	<script>
+	$(function() {
+	  $('#slides').slidesjs({
+	    width: 880,
+	    height: 299,
+	    play: {
+	      active: true,
+	      auto: true,
+	      interval: 5000,
+	      swap: true
+	    }
+	  });
+	});
+	</script>
 
 	<div class="block-group">
 		<div class="wrap">
@@ -166,7 +194,7 @@
 				<div class="inblock">
 					<h3>2014 ВСЕ ПРАВА ЗАЩИЩЕНЫ</h3>
 					<span>
-						Любое использование материалов допускается только при наличии ссылки на skprodc.com
+						Любое использование материалов допускается только при наличии ссылки на skprodc.com 2014
 					</span>
 				</div>
 			</div>
