@@ -7,19 +7,21 @@ body{
 a {
 	outline: 0;
 	color: #464451;
-	border-bottom: 0px solid #cee;
+	text-decoration: none;
+	border-bottom: 0px solid #b3b0c1;
 }
 
 a:hover,
 	a:focus {
-	color: orange;
-	border-bottom: 0px solid #eaa;
+	color: #928c07;
+	border-bottom: 0px solid #ceca6e;
 }
 
 h2 {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 20px;
+	margin-bottom: 20px;
 }
 
 h3 {
@@ -31,6 +33,10 @@ h3 {
 .wrap {
 	margin: 0 auto;
 	max-width: 960px;
+}
+
+.block-group {
+	margin-bottom: 30px;
 }
 
 .bg{
@@ -45,6 +51,11 @@ h3 {
 
 .header {
 	z-index: 9999;
+	margin-bottom: 0;
+}
+
+.social .block {
+	padding: 15px 15px 0 0;
 }
 
 .text-navbar {
@@ -77,7 +88,7 @@ h3 {
 	border-bottom: 1px solid transparent;
 	text-decoration: none;
 	text-align: center;
-	width: 105px;
+	width: 110px;
 }
 
 .text-navbar a img {
@@ -86,7 +97,7 @@ h3 {
 }
 
 .text-navbar a.logo {
-	width: 160px;
+	width: 155px;
 	z-index: 999;
 	text-align: left;
 }
@@ -132,6 +143,20 @@ h3 {
 	float: left;
 }
 
+.block-group .news .t-date {
+	
+}
+
+.block-group .news h3 {
+	margin: 0;
+}
+
+.block-group .news.home .img {
+	width: 85px;
+	height: 85px;
+	margin-right: 20px;
+}
+
 .block-group .title {
 	width: 200px;
 	height: 100px;
@@ -139,6 +164,7 @@ h3 {
 	text-transform:uppercase;
 	position: relative;
 }
+
 
 .left-arr,
 .right-arr {
@@ -188,6 +214,24 @@ h3 {
 
 .footer {
 	padding-bottom: 60px;
+}
+
+.footer .w20 a {
+	opacity: .5;
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding-top: 40px;
+	transition: all .1s;
+}
+
+.footer .w20 a:hover,
+.footer .w20 a:focus {
+	opacity: 1;
+}
+
+.footer .w20 a img {
+	width: 80%;
 }
 
 
