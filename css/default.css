@@ -31,6 +31,16 @@ overflow:hidden;
 background: #fff;
 }
 
+.mini-slider {
+position: relative;
+}
+
+.mini-slider .sliderContent {
+width:482px;
+height:214px;
+border: 1px solid #ccc;
+}
+
 .sliderArrows a {
 display:block;
 text-indent:-9999px;
@@ -42,6 +52,11 @@ height:42px;
 position:absolute;
 top:50%;
 margin-top:-34px;
+}
+
+.mini-slider .sliderArrows a {
+	margin-top:-12px;
+	opacity: 0;
 }
 
 .prev {
@@ -70,15 +85,21 @@ background:#fff;
 
 .sliderBullets {
 position:absolute;
-bottom:0;
+bottom:30px;
 left:50%;
 z-index:50;
+width: 90px;
+height: 12px;
 margin-left:-45px;
+text-align: center;
+}
+
+.mini-slider .sliderBullets {
+	bottom:-5px;
 }
 
 .sliderBullets a {
-display:block;
-float:left;
+display:inline-block;
 text-indent:-9999px;
 outline:none;
 margin-left:5px;
